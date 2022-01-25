@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li h2 {
+  font-size: 16px;
+}
+
+.quote {
+  border: solid 1px #00f;
+  border-radius: 6px;
+  flex-basis: content;
+}
+
+blockquote p {
+  background-color: rgba(0, 0, 255, 0.075);
+  border-radius: 6px;
+  padding: 1em;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}

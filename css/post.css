@@ -1,0 +1,45 @@
+@import "global.css";
+
+.container {
+  display: grid;
+  grid-template-rows: 70px 100px max-content minmax(200px, max-content) 50px;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd "
+    "tt tt tt tt tt tt tt tt"
+    "fe fe fe fe fe fe fe fe"
+    "mn mn mn mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft";
+}
+
+.title {
+  grid-area: tt;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.feature {
+  grid-area: fe;
+}
+
+.content {
+  grid-area: mn;
+}
+
+.author img {
+  float: left;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+
+figure {
+  float: left;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+
+.footer {
+  grid-area: ft;
+}

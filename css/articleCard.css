@@ -1,0 +1,16 @@
+.by {
+  font-style: italic;
+}
+
+.article h2 {
+  margin: 0;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
+
+article p.desc {
+  margin-top: 0;
+}
