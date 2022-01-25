@@ -2,15 +2,15 @@
   font-style: italic;
 }
 
-.article h2 {
+.article-card h2 {
   margin: 0;
 }
 
-.article img {
+.article-card img {
   max-width: 100%;
   height: auto;
 }
 
-article p.desc {
+.article-card p.desc {
   margin-top: 0;
 }
